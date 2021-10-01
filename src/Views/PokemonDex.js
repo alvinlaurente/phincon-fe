@@ -100,6 +100,17 @@ function PokemonDex() {
           <p>{(pokemonData.data.weight * 0.1).toFixed(1)}kg</p>
         </div>
 
+        <div>
+          <span className="font-bold text-xl mb-3">MOVES</span>
+          <ul>
+            {
+              pokemonData.data.moves.map((move, name) =>
+                <li key={name}>{move.move.name}</li>
+              )
+            }
+          </ul>
+        </div>
+
         <span className="font-bold text-xl mb-3 text-blue-200">
           <Link
             to={`/pokemon/${pokemonData.data.id - 1}`}
