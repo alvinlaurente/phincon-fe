@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="border-b p-3 flex justify-between items-centeryarn add @fortawesome/fontawesome-svg-core">
       <span className="font-bold">
-        AppName
+      Pokémon Dex
       </span>
       
       <Navigation />
