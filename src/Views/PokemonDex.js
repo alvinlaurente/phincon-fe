@@ -62,8 +62,8 @@ function PokemonDex() {
         <div>
           <span className="font-bold text-xl mb-3">TYPE</span>
           {
-            pokemonData.data.types.map((type) =>
-              <p>{type.type.name}</p>
+            pokemonData.data.types.map((type, slot) =>
+              <p key={slot}>{type.type.name}</p>
             )
           }
         </div>
@@ -84,8 +84,8 @@ function PokemonDex() {
           <span className="font-bold text-xl mb-3">ABILITIES</span>
           <ul>
             {
-              pokemonData.data.abilities.map((ability) =>
-                <li>{ability.ability.name}</li>
+              pokemonData.data.abilities.map((ability, name) =>
+                <li key={name}>{ability.ability.name}</li>
               )
             }
           </ul>

@@ -13,7 +13,7 @@ import PokemonDex from './Views/PokemonDex'
 
 function App() {
   return (
-    <div>
+    <div className="relative pb-10 min-h-screen">
       <Router>
         <Header />
 
