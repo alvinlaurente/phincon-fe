@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Loader from '../Components/Loader'
+import ImageCard from '../Components/ImageCard'
 
 function Home() {
-  const urlList = `https://pokeapi.co/api/v2/pokemon?limit=20&offset=0`
+  const urlList = `https://pokeapi.co/api/v2/pokemon?limit=40&offset=0`
   const [pokemonList, setPokemonList] = useState({
     loading: false,
     data: null,
@@ -30,10 +31,10 @@ function Home() {
           data: response.data,
           error: false
         })
-
         let urls = []
-        if (pokemonList.data) {
-          pokemonList.data.results.map((datum) => urls.push(datum.url))
+        if (response.data) {
+          response.data.results.map((datum) => urls.push(datum.url))
+          console.log(urlList)
           setPokemonData({
             loading: true,
             data: null,
@@ -44,7 +45,7 @@ function Home() {
             .all(urls.map(map => axios.get(map)))
             .then(
               axios.spread((...responses) => {
-                console.log(responses)
+                // console.log(responses)
                 return Promise.allSettled(responses.map(test => test))
                   .then(results => {
                     setPokemonData({
@@ -74,8 +75,27 @@ function Home() {
       })
   }, [urlList])
 
+  if (pokemonList.loading || pokemonData.loading) {
+    content = <Loader></Loader>
+  }
+
+  if (pokemonList.error || pokemonData.error) {
+    content = <p>
+      There was an error, please refresh or try again later.
+    </p>
+  }
+
   if (pokemonData.data) {
-    console.log(pokemonData.data[1].value.data.name)
+    content =
+        <div class="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10">
+          {pokemonData.data.map(datum => (
+            <ImageCard
+              key={datum.value.data.name}
+              image={datum.value.data.sprites.front_default}
+              id={datum.value.data.id}
+              name={datum.value.data.name}/>
+          ))}
+        </div>
   }
 
   return (
