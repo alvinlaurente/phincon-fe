@@ -21,7 +21,7 @@ function Navigation() {
 
   return (
     <nav>
-      <span className="text-xl">
+      <span className="text-xl cursor-pointer">
         <FontAwesomeIcon
           icon={faBars}
           onClick={() => setShowMenu(!showMenu)}
@@ -44,7 +44,7 @@ function Navigation() {
           item &&
           <animated.div
             style={styles}
-            className="fixed bg-white top-0 left-0 w-4/5 h-full z-50 p-3 shadow"
+            className="fixed bg-white top-0 left-0 w-1/5 h-full z-50 p-3 shadow"
           >
             <NavigationMenu
               closeMenu={() => setShowMenu(false)}

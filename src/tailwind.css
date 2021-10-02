@@ -15641,6 +15641,101 @@ video {
   background-color: rgba(0,0,0,0.5);
 }
 
+.bg-unknown-type {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+}
+
+.bg-normal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+}
+
+.bg-fighting {
+  --tw-bg-opacity: 1;
+  background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+}
+
+.bg-flying {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+}
+
+.bg-poison {
+  --tw-bg-opacity: 1;
+  background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+}
+
+.bg-ground {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+}
+
+.bg-rock {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+}
+
+.bg-bug {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+}
+
+.bg-ghost {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+}
+
+.bg-steel {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+}
+
+.bg-fire {
+  --tw-bg-opacity: 1;
+  background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+}
+
+.bg-water {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+}
+
+.bg-grass {
+  --tw-bg-opacity: 1;
+  background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+}
+
+.bg-electric {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+}
+
+.bg-pyschic {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+}
+
+.bg-ice {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+}
+
+.bg-dragon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+}
+
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+}
+
+.bg-fairy {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+}
+
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
 }
@@ -16061,6 +16156,101 @@ video {
 
 .group:hover .group-hover\:bg-black-t-50 {
   background-color: rgba(0,0,0,0.5);
+}
+
+.group:hover .group-hover\:bg-unknown-type {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-normal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-fighting {
+  --tw-bg-opacity: 1;
+  background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-flying {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-poison {
+  --tw-bg-opacity: 1;
+  background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-ground {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-rock {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-bug {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-ghost {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-steel {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-fire {
+  --tw-bg-opacity: 1;
+  background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-water {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-grass {
+  --tw-bg-opacity: 1;
+  background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-electric {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-pyschic {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-ice {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-dragon {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-fairy {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-transparent:focus-within {
@@ -16485,6 +16675,101 @@ video {
   background-color: rgba(0,0,0,0.5);
 }
 
+.focus-within\:bg-unknown-type:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-normal:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-fighting:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-flying:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-poison:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-ground:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-rock:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-bug:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-ghost:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-steel:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-fire:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-water:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-grass:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-electric:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-pyschic:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-ice:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-dragon:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-dark:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+}
+
+.focus-within\:bg-fairy:focus-within {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -16907,6 +17192,101 @@ video {
   background-color: rgba(0,0,0,0.5);
 }
 
+.hover\:bg-unknown-type:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+}
+
+.hover\:bg-normal:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+}
+
+.hover\:bg-fighting:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+}
+
+.hover\:bg-flying:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+}
+
+.hover\:bg-poison:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+}
+
+.hover\:bg-ground:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+}
+
+.hover\:bg-rock:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+}
+
+.hover\:bg-bug:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+}
+
+.hover\:bg-ghost:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+}
+
+.hover\:bg-steel:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+}
+
+.hover\:bg-fire:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+}
+
+.hover\:bg-water:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+}
+
+.hover\:bg-grass:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+}
+
+.hover\:bg-electric:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+}
+
+.hover\:bg-pyschic:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+}
+
+.hover\:bg-ice:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+}
+
+.hover\:bg-dragon:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+}
+
+.hover\:bg-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+}
+
+.hover\:bg-fairy:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -17327,6 +17707,101 @@ video {
 
 .focus\:bg-black-t-50:focus {
   background-color: rgba(0,0,0,0.5);
+}
+
+.focus\:bg-unknown-type:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+}
+
+.focus\:bg-normal:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+}
+
+.focus\:bg-fighting:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+}
+
+.focus\:bg-flying:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+}
+
+.focus\:bg-poison:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+}
+
+.focus\:bg-ground:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+}
+
+.focus\:bg-rock:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+}
+
+.focus\:bg-bug:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+}
+
+.focus\:bg-ghost:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+}
+
+.focus\:bg-steel:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+}
+
+.focus\:bg-fire:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+}
+
+.focus\:bg-water:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+}
+
+.focus\:bg-grass:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+}
+
+.focus\:bg-electric:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+}
+
+.focus\:bg-pyschic:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+}
+
+.focus\:bg-ice:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+}
+
+.focus\:bg-dragon:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+}
+
+.focus\:bg-dark:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+}
+
+.focus\:bg-fairy:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
@@ -44921,6 +45396,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .sm\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .sm\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -45341,6 +45911,101 @@ video {
 
   .group:hover .sm\:group-hover\:bg-black-t-50 {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .group:hover .sm\:group-hover\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .sm\:focus-within\:bg-transparent:focus-within {
@@ -45765,6 +46430,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .sm\:focus-within\:bg-unknown-type:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-normal:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-fighting:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-flying:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-poison:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-ground:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-rock:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-bug:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-ghost:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-steel:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-fire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-water:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-grass:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-electric:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-pyschic:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-ice:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-dragon:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-dark:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus-within\:bg-fairy:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -46187,6 +46947,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .sm\:hover\:bg-unknown-type:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-normal:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-fighting:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-flying:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-poison:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-ground:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-rock:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-bug:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-ghost:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-steel:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-fire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-water:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-grass:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-electric:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-pyschic:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-ice:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-dragon:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-fairy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -46607,6 +47462,101 @@ video {
 
   .sm\:focus\:bg-black-t-50:focus {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .sm\:focus\:bg-unknown-type:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-normal:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-fighting:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-flying:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-poison:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-ground:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-rock:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-bug:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-ghost:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-steel:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-fire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-water:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-grass:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-electric:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-pyschic:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-ice:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-dragon:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-dark:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-fairy:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .sm\:bg-opacity-0 {
@@ -74163,6 +75113,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .md\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .md\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -74583,6 +75628,101 @@ video {
 
   .group:hover .md\:group-hover\:bg-black-t-50 {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .group:hover .md\:group-hover\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .md\:focus-within\:bg-transparent:focus-within {
@@ -75007,6 +76147,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .md\:focus-within\:bg-unknown-type:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-normal:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-fighting:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-flying:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-poison:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-ground:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-rock:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-bug:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-ghost:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-steel:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-fire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-water:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-grass:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-electric:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-pyschic:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-ice:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-dragon:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-dark:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .md\:focus-within\:bg-fairy:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -75429,6 +76664,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .md\:hover\:bg-unknown-type:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-normal:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-fighting:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-flying:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-poison:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-ground:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-rock:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-bug:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-ghost:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-steel:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-fire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-water:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-grass:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-electric:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-pyschic:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-ice:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-dragon:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .md\:hover\:bg-fairy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -75849,6 +77179,101 @@ video {
 
   .md\:focus\:bg-black-t-50:focus {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .md\:focus\:bg-unknown-type:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-normal:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-fighting:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-flying:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-poison:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-ground:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-rock:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-bug:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-ghost:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-steel:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-fire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-water:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-grass:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-electric:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-pyschic:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-ice:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-dragon:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-dark:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-fairy:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .md\:bg-opacity-0 {
@@ -103405,6 +104830,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .lg\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .lg\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -103825,6 +105345,101 @@ video {
 
   .group:hover .lg\:group-hover\:bg-black-t-50 {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .group:hover .lg\:group-hover\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .lg\:focus-within\:bg-transparent:focus-within {
@@ -104249,6 +105864,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .lg\:focus-within\:bg-unknown-type:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-normal:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-fighting:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-flying:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-poison:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-ground:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-rock:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-bug:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-ghost:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-steel:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-fire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-water:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-grass:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-electric:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-pyschic:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-ice:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-dragon:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-dark:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus-within\:bg-fairy:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -104671,6 +106381,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .lg\:hover\:bg-unknown-type:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-normal:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-fighting:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-flying:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-poison:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-ground:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-rock:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-bug:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-ghost:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-steel:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-fire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-water:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-grass:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-electric:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-pyschic:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-ice:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-dragon:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .lg\:hover\:bg-fairy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -105091,6 +106896,101 @@ video {
 
   .lg\:focus\:bg-black-t-50:focus {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .lg\:focus\:bg-unknown-type:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-normal:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-fighting:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-flying:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-poison:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-ground:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-rock:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-bug:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-ghost:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-steel:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-fire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-water:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-grass:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-electric:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-pyschic:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-ice:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-dragon:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-dark:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-fairy:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .lg\:bg-opacity-0 {
@@ -132647,6 +134547,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .xl\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .xl\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -133067,6 +135062,101 @@ video {
 
   .group:hover .xl\:group-hover\:bg-black-t-50 {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .group:hover .xl\:group-hover\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .xl\:focus-within\:bg-transparent:focus-within {
@@ -133491,6 +135581,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .xl\:focus-within\:bg-unknown-type:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-normal:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-fighting:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-flying:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-poison:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-ground:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-rock:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-bug:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-ghost:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-steel:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-fire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-water:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-grass:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-electric:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-pyschic:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-ice:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-dragon:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-dark:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus-within\:bg-fairy:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -133913,6 +136098,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .xl\:hover\:bg-unknown-type:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-normal:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-fighting:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-flying:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-poison:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-ground:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-rock:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-bug:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-ghost:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-steel:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-fire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-water:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-grass:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-electric:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-pyschic:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-ice:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-dragon:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .xl\:hover\:bg-fairy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -134333,6 +136613,101 @@ video {
 
   .xl\:focus\:bg-black-t-50:focus {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .xl\:focus\:bg-unknown-type:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-normal:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-fighting:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-flying:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-poison:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-ground:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-rock:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-bug:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-ghost:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-steel:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-fire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-water:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-grass:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-electric:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-pyschic:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-ice:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-dragon:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-dark:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-fairy:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .xl\:bg-opacity-0 {
@@ -161889,6 +164264,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .\32xl\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
   }
@@ -162309,6 +164779,101 @@ video {
 
   .group:hover .\32xl\:group-hover\:bg-black-t-50 {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-unknown-type {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-normal {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-fighting {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-flying {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-poison {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-ground {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-rock {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-bug {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-ghost {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-steel {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-fire {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-water {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-grass {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-electric {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-pyschic {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-ice {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-dragon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-fairy {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus-within\:bg-transparent:focus-within {
@@ -162733,6 +165298,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .\32xl\:focus-within\:bg-unknown-type:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-normal:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-fighting:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-flying:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-poison:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-ground:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-rock:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-bug:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-ghost:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-steel:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-fire:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-water:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-grass:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-electric:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-pyschic:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-ice:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-dragon:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-dark:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus-within\:bg-fairy:focus-within {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -163155,6 +165815,101 @@ video {
     background-color: rgba(0,0,0,0.5);
   }
 
+  .\32xl\:hover\:bg-unknown-type:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-normal:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-fighting:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-flying:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-poison:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-ground:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-rock:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-bug:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-ghost:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-steel:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-fire:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-water:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-grass:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-electric:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-pyschic:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-ice:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-dragon:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:hover\:bg-fairy:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -163575,6 +166330,101 @@ video {
 
   .\32xl\:focus\:bg-black-t-50:focus {
     background-color: rgba(0,0,0,0.5);
+  }
+
+  .\32xl\:focus\:bg-unknown-type:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 160, 144, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-normal:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 168, 120, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-fighting:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(192, 48, 40, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-flying:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-poison:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(160, 64, 160, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-ground:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(224, 192, 104, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-rock:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 160, 56, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-bug:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(168, 184, 32, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-ghost:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 152, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-steel:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(184, 184, 208, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-fire:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 128, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-water:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(104, 144, 240, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-grass:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(120, 200, 80, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-electric:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 208, 48, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-pyschic:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(248, 88, 136, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-ice:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(152, 216, 216, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-dragon:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 56, 248, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-dark:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(112, 88, 72, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-fairy:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgba(238, 153, 172, var(--tw-bg-opacity));
   }
 
   .\32xl\:bg-opacity-0 {
