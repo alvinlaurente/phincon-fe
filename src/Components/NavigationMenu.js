@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 function NavigationMenu(props) {
   return (
     <div>
-      <span className="font-bold py-3">Pokédex</span>
+      <span className="font-bold text-2xl uppercase text-yellow-400 py-3">Pokémon Dex</span>
       <ul>
         <li>
           <Link
             to="/"
-            className="text-blue-400 py-3 border-t border-b block"
+            className="text-yellow-300 py-3 border-t border-b block"
             onClick={props.closeMenu}
           >
             Home
@@ -17,8 +17,17 @@ function NavigationMenu(props) {
         </li>
         <li>
           <Link
+            to="/pokemon/1"
+            className="text-yellow-300 py-3 border-b block"
+            onClick={props.closeMenu}
+          >
+            Pokémon
+          </Link>
+        </li>
+        <li>
+          <Link
             to="/about"
-            className="text-blue-400 py-3 border-b block"
+            className="text-yellow-300 py-3 border-b block"
             onClick={props.closeMenu}
           >
             About
