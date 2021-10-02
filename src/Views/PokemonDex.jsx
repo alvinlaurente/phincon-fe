@@ -52,6 +52,19 @@ function PokemonDex() {
     content =
       <div className="max-w-screen-sm bg-green-500 rounded overflow-hidden grid m-auto shadow-lg text-center">
 
+        <div className="bg-green-300 m-1 rounded grid grid-cols-2 font-bold text-2xl text-yellow-400 capitalize">
+          <div className="bg-green-50 m-1 rounded"><Link
+            to={`/pokemon/${pokemonData.data.id - 1}`}
+          >
+            ←	#{`${pokemonData.data.id - 1}`}
+          </Link></div>
+          <div className="bg-green-50 m-1 rounded"><Link
+            to={`/pokemon/${pokemonData.data.id + 1}`}
+          >
+            #{`${pokemonData.data.id + 1}`} →
+          </Link></div>
+        </div>
+
         <div className="bg-green-300 m-1 rounded grid grid-cols-2 font-bold text-2xl capitalize">
           <div className="bg-green-50 m-1 rounded">{pokemonData.data.name}</div>
           <div className="bg-green-50 m-1 rounded">#{pokemonData.data.id}</div>
@@ -181,18 +194,6 @@ function PokemonDex() {
           </ul>
         </div>
 
-        <div className="bg-green-300 m-1 rounded grid grid-cols-2 font-bold text-2xl capitalize">
-          <div className="bg-green-50 m-1 rounded"><Link
-            to={`/pokemon/${pokemonData.data.id - 1}`}
-          >
-            #{`${pokemonData.data.id - 1}`}
-          </Link></div>
-          <div className="bg-green-50 m-1 rounded"><Link
-            to={`/pokemon/${pokemonData.data.id + 1}`}
-          >
-            #{`${pokemonData.data.id + 1}`}
-          </Link></div>
-        </div>
       </div>
   }
 
