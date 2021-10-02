@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Header from './Components/Header'

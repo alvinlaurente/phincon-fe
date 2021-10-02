@@ -34,7 +34,6 @@ function Home() {
         let urls = []
         if (response.data) {
           response.data.results.map((datum) => urls.push(datum.url))
-          console.log(urlList)
           setPokemonData({
             loading: true,
             data: null,
@@ -87,7 +86,7 @@ function Home() {
 
   if (pokemonData.data) {
     content =
-        <div class="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10">
+        <div className="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10">
           {pokemonData.data.map(datum => (
             <ImageCard
               key={datum.value.data.name}

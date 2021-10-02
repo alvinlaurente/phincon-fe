@@ -11,7 +11,7 @@ function ImageCard(props) {
           className="w-full"
         />
         <div className="border-t-2 border-purple-300">
-          <div class="font-bold text-purple-400 text-sm uppercase">
+          <div className="font-bold text-purple-400 text-sm uppercase">
             <span>#{props.id}</span> {props.name}
           </div>
         </div>
