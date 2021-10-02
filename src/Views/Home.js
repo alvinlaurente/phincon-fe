@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from 'react'
+import { useLocation } from 'react-router'
 import axios from 'axios'
 import Loader from '../Components/Loader'
 import ImageCard from '../Components/ImageCard'
+import SearchList from '../Components/SearchList'
 
 function Home() {
-  const urlList = `https://pokeapi.co/api/v2/pokemon?limit=40&offset=0`
+  let query = new URLSearchParams(useLocation().search)
+  let limit = query.get("limit")
+  let offset = query.get("offset")
+
+  let urlList = `https://pokeapi.co/api/v2/pokemon?limit=40&offset=0`
+  if (limit && offset) { urlList = `https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}` }
   const [pokemonList, setPokemonList] = useState({
     loading: false,
     data: null,
@@ -86,15 +93,18 @@ function Home() {
 
   if (pokemonData.data) {
     content =
-        <div className="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10">
+      <div>
+        <SearchList />
+        <div className="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10 m-4">
           {pokemonData.data.map(datum => (
             <ImageCard
               key={datum.value.data.name}
               image={datum.value.data.sprites.front_default}
               id={datum.value.data.id}
-              name={datum.value.data.name}/>
+              name={datum.value.data.name} />
           ))}
         </div>
+      </div>
   }
 
   return (
