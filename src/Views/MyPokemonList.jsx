@@ -7,19 +7,14 @@ import { faPencilAlt, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 function MyPokemonList(){
   const {REACT_APP_API_HOST} = process.env
-  const url = `${REACT_APP_API_HOST}/my-pokemon-list`
+  let url = `${REACT_APP_API_HOST}/my-pokemon-list`
   const [pokemonList, setPokemonList] = useState({
     loading: false,
     data: null,
     error: false
   })
-  const [pokemonData, setPokemonData] = useState({
-    loading: false,
-    data: null,
-    error: false
-  })
-
-  let content = null
+  
+  const [msg, setMsg] = useState('')
 
   useEffect(() => {
     setPokemonList({
@@ -28,46 +23,17 @@ function MyPokemonList(){
       error: false
     })
 
-    axios.get(url)
+    getData(url)
+  }, [url])
+
+  async function getData(url) {
+    await axios.get(url)
       .then(response => {
         setPokemonList({
           loading: false,
           data: response.data,
           error: false
         })
-
-        let urls = []
-        if (response.data) {
-          response.data.data.map((datum) => urls.push(datum.url))
-          setPokemonData({
-            loading: true,
-            data: null,
-            error: false
-          })
-
-          axios
-            .all(urls.map(map => axios.get(map)))
-            .then(
-              axios.spread((...responses) => {
-                return Promise.allSettled(responses.map(test => test))
-                  .then(results => {
-                    setPokemonData({
-                      loading: false,
-                      data: results,
-                      error: false
-                    })
-                  })
-                  .catch((error) => console.log(error))
-              })
-            )
-            .catch(() => {
-              setPokemonData({
-                loading: false,
-                data: null,
-                error: true
-              })
-            })
-        }
       })
       .catch(() => {
         setPokemonList({
@@ -76,45 +42,72 @@ function MyPokemonList(){
           error: true
         })
       })
-  }, [url])
+  }
 
-  if (pokemonList.loading || pokemonData.loading) {
+  async function renamePokemon(id) {
+    const payload = JSON.stringify({ id: id})
+    await axios.patch(`${process.env.REACT_APP_API_HOST}/rename`, payload, {
+      "headers":{
+        "content-type":"application/json",
+      }
+    })
+    .then(response => { console.log(response) })
+    .catch(e => console.log(e))
+
+    getData(url)
+  }
+
+  async function releasePokemon(id) {
+    const payload = JSON.stringify({ id: id})
+    console.log(payload)
+    await axios.delete(`${process.env.REACT_APP_API_HOST}/release/${id}`, {
+      "headers":{
+        "content-type":"application/json",
+      }
+    })
+    .then(response => { setMsg(response.data.message) })
+    .catch(e => console.log(e))
+    
+    getData(url)
+  }
+
+  let content = null
+
+  if (pokemonList.loading) {
     content = <Loader></Loader>
   }
 
-  if (pokemonList.error || pokemonData.error) {
+  if (pokemonList.error) {
     content = <p>
       There was an error, please refresh or try again later.
     </p>
   }
 
-  if (pokemonData.data) {
-    for(let i = 0; i < pokemonList.data.data.length; i++){
-      pokemonData.data[i].value.data.name = pokemonList.data.data[i].name
-    }
-
+  if (pokemonList.data) {
     content =
       <div className="text-center">
         <span className="text-2xl font-bold text-purple-500">
           My Pokémon List
         </span>
-        <div className="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10 m-4">
-          {pokemonData.data.map(datum => (
+        <div className="text-bold text-xl text-yellow-300">{msg}</div>
+        <div className="grid lg:grid-cols-8 md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-10 m-4">
+          {pokemonList.data.data.map((datum, index) => (
             <div className="text-center">
               <ImageCard
-                key={datum.value.data.name}
-                image={datum.value.data.sprites.front_default}
-                id={datum.value.data.id}
-                name={datum.value.data.name} />
-              {/* Button Inside Here */}
-              <FontAwesomeIcon
-                icon={faPencilAlt}
-                className="mx-2"
-              />
-              <FontAwesomeIcon
-                icon={faTrashAlt}
-                className="mx-2"
-              />
+                key={datum.name}
+                image={datum.image}
+                id={datum.id}
+                name={datum.name} />
+                  <FontAwesomeIcon
+                    onClick={() => renamePokemon(datum.id)}
+                    icon={faPencilAlt}
+                    className="mx-2 cursor-pointer"
+                  />
+                  <FontAwesomeIcon
+                    onClick={() => releasePokemon(datum.id)}
+                    icon={faTrashAlt}
+                    className="mx-2 cursor-pointer"
+                  />
             </div>
           ))}
         </div>

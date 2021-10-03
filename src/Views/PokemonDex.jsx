@@ -13,7 +13,14 @@ function PokemonDex() {
     error: false
   })
 
+  const [name, setName] = useState('')
+  const [num, setNum] = useState('')
+  const [msg, setMsg] = useState('')
+
   useEffect(() => {
+    setName('')
+    setNum('')
+    setMsg('')
     setPokemonData({
       loading: true,
       data: null,
@@ -36,28 +43,13 @@ function PokemonDex() {
       })
   }, [url])
 
-  let content = null
-
-  if (pokemonData.loading) {
-    content = <Loader></Loader>
-  }
-
-  if (pokemonData.error) {
-    content = <p>
-      There was an error, please refresh or try again later.
-    </p>
-  }
-
-  const [name, setName] = useState('')
-  const [num, setNum] = useState('')
-  const [msg, setMsg] = useState('')
-
-  const submitHandler = e => {
+  const catchPokemon = e => {
     e.preventDefault()
 
     const payload = JSON.stringify({
       id: pokemonData.data.id,
       name: name,
+      image: pokemonData.data.sprites.front_default,
     })
     axios.post(`${process.env.REACT_APP_API_HOST}/catch`, payload, {
       "headers":{
@@ -69,6 +61,18 @@ function PokemonDex() {
       setMsg(response.data.message)
     })
     .catch(e => console.log(e))
+  }
+
+  let content = null
+
+  if (pokemonData.loading) {
+    content = <Loader></Loader>
+  }
+
+  if (pokemonData.error) {
+    content = <p>
+      There was an error, please refresh or try again later.
+    </p>
   }
 
   if (pokemonData.data) {
@@ -228,23 +232,18 @@ function PokemonDex() {
         </div>
 
         <div className="bg-green-300 m-1 rounded">
-          <div className="bg-green-50 m-1 rounded">
-            <form onSubmit={submitHandler}>
-              <input
-                type="hidden"
-                name="id"
-                value={pokemonData.data.id}/>
+          <div className="bg-green-50 m-1 py-1 rounded">
+            <form
+            onSubmit={catchPokemon}
+            className="w-full flex justify-center">
               <input
                 type="text"
                 name="name"
                 onChange={e => setName(e.target.value)}
-                placeholder="Give a name"/>
-              <button
-                type="submit"
-              >
-                <span className="font-bold text-4xl">
-                  CATCH!
-                </span>
+                placeholder="Give a name"
+                className="appearance-none bg-transparent border border-2 border-purple-500 text-gray-700 mr-3 py-2 px-2 rounded leading-tight focus:outline-none"/>
+              <button type="submit" className="flex-shrink-0 bg-purple-400 border-purple-400 text-sm border-4 text-white text-semibold px-1 rounded hover:bg-purple-600 transition duration-500 hover:border-purple-600">
+                CATCH!
               </button>
             </form>
           </div>
