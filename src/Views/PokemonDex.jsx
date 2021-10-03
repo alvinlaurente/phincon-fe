@@ -48,6 +48,29 @@ function PokemonDex() {
     </p>
   }
 
+  const [name, setName] = useState('')
+  const [num, setNum] = useState('')
+  const [msg, setMsg] = useState('')
+
+  const submitHandler = e => {
+    e.preventDefault()
+
+    const payload = JSON.stringify({
+      id: pokemonData.data.id,
+      name: name,
+    })
+    axios.post(`${process.env.REACT_APP_API_HOST}/catch`, payload, {
+      "headers":{
+        "content-type":"application/json",
+      }
+    })
+    .then(response => {
+      setNum(response.data.random)
+      setMsg(response.data.message)
+    })
+    .catch(e => console.log(e))
+  }
+
   if (pokemonData.data) {
     let before = 0;
     let after = 0;
@@ -202,6 +225,36 @@ function PokemonDex() {
               )
             }
           </ul>
+        </div>
+
+        <div className="bg-green-300 m-1 rounded">
+          <div className="bg-green-50 m-1 rounded">
+            <form onSubmit={submitHandler}>
+              <input
+                type="hidden"
+                name="id"
+                value={pokemonData.data.id}/>
+              <input
+                type="text"
+                name="name"
+                onChange={e => setName(e.target.value)}
+                placeholder="Give a name"/>
+              <button
+                type="submit"
+              >
+                <span className="font-bold text-4xl">
+                  CATCH!
+                </span>
+              </button>
+            </form>
+          </div>
+
+          <div className="text-xl">
+          Your Number is : <span className="font-bold">{num}</span>
+          </div>
+          <div className="text-xl">
+          {msg}
+          </div>
         </div>
 
       </div>
