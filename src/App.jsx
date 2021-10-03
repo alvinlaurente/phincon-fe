@@ -7,7 +7,7 @@ import {
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Views/Home'
-import About from './Views/About'
+import MyPokemonList from './Views/MyPokemonList'
 import PokemonDex from './Views/PokemonDex'
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
             <Route path="/list">
               <Home />
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/my-pokemon-list">
+              <MyPokemonList />
             </Route>
             <Route path="/pokemon/:id">
               <PokemonDex />

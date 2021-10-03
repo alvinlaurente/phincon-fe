@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import { useLocation } from 'react-router'
 import axios from 'axios'
-import Loader from '../Components/Loader'
-import SearchList from '../Components/SearchList'
 import ImageCard from '../Components/ImageCard'
+import Loader from '../Components/Loader';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPencilAlt, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
-function Home() {
-  let query = new URLSearchParams(useLocation().search)
-  let limit = query.get("limit")
-  let offset = query.get("offset")
-
-  let urlList = `https://pokeapi.co/api/v2/pokemon?limit=40&offset=0`
-  if (limit && offset) { urlList = `https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}` }
+function MyPokemonList(){
+  const {REACT_APP_API_HOST} = process.env
+  const url = `${REACT_APP_API_HOST}/my-pokemon-list`
   const [pokemonList, setPokemonList] = useState({
     loading: false,
     data: null,
@@ -31,7 +27,8 @@ function Home() {
       data: null,
       error: false
     })
-    axios.get(urlList)
+
+    axios.get(url)
       .then(response => {
         setPokemonList({
           loading: false,
@@ -41,7 +38,7 @@ function Home() {
 
         let urls = []
         if (response.data) {
-          response.data.results.map((datum) => urls.push(datum.url))
+          response.data.data.map((datum) => urls.push(datum.url))
           setPokemonData({
             loading: true,
             data: null,
@@ -79,7 +76,7 @@ function Home() {
           error: true
         })
       })
-  }, [urlList])
+  }, [url])
 
   if (pokemonList.loading || pokemonData.loading) {
     content = <Loader></Loader>
@@ -92,16 +89,33 @@ function Home() {
   }
 
   if (pokemonData.data) {
+    for(let i = 0; i < pokemonList.data.data.length; i++){
+      pokemonData.data[i].value.data.name = pokemonList.data.data[i].name
+    }
+
     content =
-      <div>
-        <SearchList />
+      <div className="text-center">
+        <span className="text-2xl font-bold text-purple-500">
+          My Pokémon List
+        </span>
         <div className="grid lg:grid-cols-10 md:grid-cols-8 sm:grid-cols-6 xs:grid-cols-3 gap-10 m-4">
           {pokemonData.data.map(datum => (
-            <ImageCard
-              key={datum.value.data.name}
-              image={datum.value.data.sprites.front_default}
-              id={datum.value.data.id}
-              name={datum.value.data.name} />
+            <div className="text-center">
+              <ImageCard
+                key={datum.value.data.name}
+                image={datum.value.data.sprites.front_default}
+                id={datum.value.data.id}
+                name={datum.value.data.name} />
+              {/* Button Inside Here */}
+              <FontAwesomeIcon
+                icon={faPencilAlt}
+                className="mx-2"
+              />
+              <FontAwesomeIcon
+                icon={faTrashAlt}
+                className="mx-2"
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -114,4 +128,4 @@ function Home() {
   )
 }
 
-export default Home
+export default MyPokemonList

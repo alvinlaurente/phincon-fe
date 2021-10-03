@@ -49,19 +49,29 @@ function PokemonDex() {
   }
 
   if (pokemonData.data) {
+    let before = 0;
+    let after = 0;
+    before = pokemonData.data.id - 1;
+    if(pokemonData.data.id === 1) { before = 10220 };
+    if(pokemonData.data.id === 10001) { before = 898 };
+
+    after = pokemonData.data.id + 1;
+    if(pokemonData.data.id === 898) { after = 10001 };
+    if(pokemonData.data.id === 10220) { after = 1 };
+
     content =
       <div className="max-w-screen-sm bg-green-500 rounded overflow-hidden grid m-auto shadow-lg text-center">
 
         <div className="bg-green-300 m-1 rounded grid grid-cols-2 font-bold text-2xl text-yellow-400 capitalize">
           <div className="bg-green-50 m-1 rounded"><Link
-            to={`/pokemon/${pokemonData.data.id - 1}`}
+            to={`/pokemon/${before}`}
           >
-            ←	#{`${pokemonData.data.id - 1}`}
+            ←	#{`${before}`}
           </Link></div>
           <div className="bg-green-50 m-1 rounded"><Link
-            to={`/pokemon/${pokemonData.data.id + 1}`}
+            to={`/pokemon/${after}`}
           >
-            #{`${pokemonData.data.id + 1}`} →
+            #{`${after}`} →
           </Link></div>
         </div>
 

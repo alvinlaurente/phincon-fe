@@ -26,11 +26,11 @@ function NavigationMenu(props) {
         </li>
         <li>
           <Link
-            to="/about"
+            to="/my-pokemon-list"
             className="text-yellow-300 py-3 border-b block"
             onClick={props.closeMenu}
           >
-            About
+            My Pokemon List
           </Link>
         </li>
       </ul>

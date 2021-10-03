@@ -11,7 +11,7 @@ function SearchList() {
         Pokémon List
       </span>
       <form className="w-full max-w-sm">
-        <div class="flex items-center border-purple-500">
+        <div className="flex items-center border-purple-500">
           <input
             onChange={e => setTextOffset(e.target.value - 1)}
             className="appearance-none bg-transparent border border-2 border-purple-500 w-full text-gray-700 mr-3 py-1 px-2 rounded leading-tight focus:outline-none"
